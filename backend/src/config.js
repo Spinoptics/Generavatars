@@ -35,7 +35,7 @@ const format = {
 };
 
 const extraMetadata = {
-  external_url: "https://www.spinoptics.art", // Replace with your website or remove this line if you do not have one.
+  external_url: "https://www.spinoptics.art" , // Replace with your website or remove this line if you do not have one.
 };
 
 // NFTPort Info
@@ -48,7 +48,7 @@ const CHAIN = 'polygon'; // only rinkeby or polygon
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
 const CONTRACT_NAME = 'Generavatars';
 const CONTRACT_SYMBOL = 'SGA';
-const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
+const METADATA_UPDATABLE = false; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0xDd6438a6cE18b6dbcdD939c4a33A4898E38ECAa6';
 const TREASURY_ADDRESS = '0xDd6438a6cE18b6dbcdD939c4a33A4898E38ECAa6';
 const MAX_SUPPLY = 315; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
@@ -56,7 +56,7 @@ const MINT_PRICE = 0; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. 
 const TOKENS_PER_MINT = 1; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PUBLIC_MINT_START_DATE = "2023-03-20T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+const PUBLIC_MINT_START_DATE = "2023-06-03T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PRESALE_MINT_START_DATE = "2022-06-03T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
